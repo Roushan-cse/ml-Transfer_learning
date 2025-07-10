@@ -1,0 +1,56 @@
+# 🚫 OS-generated files
+.DS_Store
+Thumbs.db
+/myenv
+# 🧪 Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# 📦 Dependency directories
+node_modules/
+vendor/
+
+# 🛠️ Build output
+dist/
+build/
+out/
+
+# 🧪 Test and coverage reports
+coverage/
+*.lcov
+
+# 🧪 IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🔐 Secrets and environment files
+.env
+*.key
+*.pem
+
+# 🐍 Python-specific
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env/
+.venv/
+
+# 🧠 Jupyter Notebooks
+.ipynb_checkpoints/
+
+# 📸 Images and media (optional)
+*.png
+*.jpg
+*.mp4
+
+# 🧹 Misc
+*.bak
+*.old
+*.orig
